@@ -1,0 +1,45 @@
+.modal-content {
+    background-color: #27333f;
+    color: white;
+}
+
+.modal-title{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #8c98a3;
+    line-height: 3rem;
+}
+
+.modal-description{
+    font-weight: bold;
+    align-content: center;
+}
+
+img {
+    margin-bottom: 1rem;
+    padding-left: 9%;
+    padding-right: 9%;
+}
+
+.p-modal{
+    color: #8c98a3;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+}
+
+.github {
+    color: white;
+    position: relative;
+    text-decoration: none;
+}
+.modal-header .btn-close {
+    background-color: white;
+    border: none;
+    color: white,!important; 
+    font-size: 1.5rem; 
+    opacity: 1; 
+}
+
+.modal-header .btn-close:hover {
+    color: #ccc; 
+}

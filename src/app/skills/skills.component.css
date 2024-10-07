@@ -1,0 +1,42 @@
+.cv-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.cv-preview {
+    max-width: 400px; 
+    height: auto;
+}
+
+.cv-button .btn-primary2 {
+    color: #8A2BE2;
+    border: 2px solid #8A2BE2;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cv-button .btn-primary2:hover {
+    background-color: #8A2BE2;
+    color: white;
+}
+.cv-container  {
+   padding-top: 100px;
+}
+.cv-image {
+    border: 2px solid black; 
+    padding: 5px; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: white; 
+}
+
+.cv-preview {
+    display: block;
+    max-width: 100%;
+    border-radius: 4px; 
+}

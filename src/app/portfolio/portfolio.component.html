@@ -1,0 +1,21 @@
+<div class="row align-items-center default-container">
+    <div class="col-lg-8">
+        <div class="content">
+            <div class="content-left">
+                <h2 class="default-topic">Portfolio.</h2>
+                <p class="default-p">
+                    Découvrez mes projets et réalisations, démontrant mes compétences en développement web et mobile.
+                </p>
+                <div class="portfolio-container">
+                    <div class="row justify-content-center">
+                        @for (project of projects; track project.id) {
+                            <div class="col-md-6 mb-4">
+                                <app-project-card [card]="project"></app-project-card>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
